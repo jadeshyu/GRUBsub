@@ -1,0 +1,150 @@
+var foodlist =
+[
+  "whitebread": [
+      "foodName": "White Bread",
+      "unit": "1 Slice",
+      "caloriesPerServing": "79",
+      "differenceFromAlternative": "-74",
+      "alternative": "lettuce"
+  ],
+  "whitebread": [
+      "foodName": "Wheat Bread",
+      "unit": "1 Slice",
+      "caloriesPerServing": "69",
+      "differenceFromAlternative": "-64",
+      "alternative": "lettuce"
+  ],
+  "lettuce": [
+      "foodName": "Lettuce",
+      "unit": "1 Cup",
+      "caloriesPerServing": "5",
+      "differenceFromAlternative": "0",
+      "alternative": "None"
+  ],
+  "whiterice": [
+      "foodName": "White Rice",
+      "unit": "1 Cup",
+      "caloriesPerServing": "206",
+      "differenceFromAlternative": "-181",
+      "alternative": "cauliflowerrice"
+  ],
+  "brownrice": [
+      "foodName": "Brown Rice",
+      "unit": "1 Cup",
+      "caloriesPerServing": "230",
+      "differenceFromAlternative": "-205",
+      "alternative": "cauliflowerrice"
+  ],
+  "cauliflowerrice": [
+      "foodName": "Cauliflower Rice",
+      "unit": "1 Cup",
+      "caloriesPerServing": "25",
+      "differenceFromAlternative": "0",
+      "alternative": "None"
+  ],
+  "hamburger": [
+      "foodName": "Hamburger",
+      "unit": "1 Item",
+      "caloriesPerServing": "390",
+      "differenceFromAlternative": "-150",
+      "alternative": "proteinstylehamburger"
+  ],
+  "proteinstylehamburger": [
+      "foodName": "Protein Style Hamburger",
+      "unit": "1 Item",
+      "caloriesPerServing": "240",
+      "differenceFromAlternative": "0",
+      "alternative": "None"
+  ],
+  "cocacola": [
+      "foodName": "Coca Cola",
+      "unit": "12 fl. oz.",
+      "caloriesPerServing": "140",
+      "differenceFromAlternative": "-140",
+      "alternative": "dietcoke"
+  ],
+  "dietcoke": [
+      "foodName": "Diet Coke",
+      "unit": "12 fl. oz.",
+      "caloriesPerServing": "0",
+      "differenceFromAlternative": "0",
+      "alternative": "None"
+  ],
+  "cheetos": [
+      "foodName": "Cheetos",
+      "unit": "1oz. bag",
+      "caloriesPerServing": "160",
+      "differenceFromAlternative": "-155",
+      "alternative": "celery"
+  ],
+  "bakedcheetos": [
+      "foodName": "Baked Cheetos",
+      "unit": "1oz. bag",
+      "caloriesPerServing": "133",
+      "differenceFromAlternative": "-128",
+      "alternative": "celery"
+  ],
+  "wheatthins": [
+      "foodName": "Wheat Thins",
+      "unit": "1oz. bag",
+      "caloriesPerServing": "128",
+      "differenceFromAlternative": "-123",
+      "alternative": "celery"
+  ],
+  "celery": [
+      "foodName": "Celery",
+      "unit": "1oz. bag",
+      "caloriesPerServing": "5",
+      "differenceFromAlternative": "0",
+      "alternative": "None"
+  ],
+  "friedchicken": [
+      "foodName": "Fried Chicken",
+      "unit": "4 oz.",
+      "caloriesPerServing": "506",
+      "differenceFromAlternative": "-459",
+      "alternative": "grilledchicken"
+  ],
+  "grilledchicken": [
+      "foodName": "Grilled Chicken",
+      "unit": "4 oz.",
+      "caloriesPerServing": "47",
+      "differenceFromAlternative": "0",
+      "alternative": "None"
+  ],
+  "friedfish": [
+      "foodName": "Fried fish",
+      "unit": "5 oz.",
+      "caloriesPerServing": "438",
+      "differenceFromAlternative": "-263",
+      "alternative": "grilledfish"
+  ],
+  "grilledfish": [
+      "foodName": "Grilled Fish",
+      "unit": "5 oz.",
+      "caloriesPerServing": "175",
+      "differenceFromAlternative": "0",
+      "alternative": "None"
+  ],
+  "steak": [
+      "foodName": "Steak",
+      "unit": "8 oz.",
+      "caloriesPerServing": "650",
+      "differenceFromAlternative": "0",
+      "alternative": "None"
+  ],
+  "frenchfries": [
+      "foodName": "French Fries",
+      "unit": "8 oz.",
+      "caloriesPerServing": "680",
+      "differenceFromAlternative": "-635",
+      "alternative": "steamedvegetables"
+  ],
+  "steamedvegetables": [
+      "foodName": "Steamed Vegetables",
+      "unit": "8 oz.",
+      "caloriesPerServing": "45",
+      "differenceFromAlternative": "0",
+      "alternative": "None"
+  ]
+]
