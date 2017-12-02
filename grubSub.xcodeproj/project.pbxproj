@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07E4CFAA1FD344F7004F8CA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E4CFA91FD344F7004F8CA9 /* AppDelegate.swift */; };
+		07E4CFAC1FD344F7004F8CA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E4CFAB1FD344F7004F8CA9 /* ViewController.swift */; };
+		07E4CFAF1FD344F7004F8CA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07E4CFAD1FD344F7004F8CA9 /* Main.storyboard */; };
+		07E4CFB11FD344F7004F8CA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07E4CFB01FD344F7004F8CA9 /* Assets.xcassets */; };
+		07E4CFB41FD344F7004F8CA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07E4CFB21FD344F7004F8CA9 /* LaunchScreen.storyboard */; };
+		07E4CFBF1FD344F7004F8CA9 /* grubSubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E4CFBE1FD344F7004F8CA9 /* grubSubTests.swift */; };
+		07E4CFCA1FD344F7004F8CA9 /* grubSubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E4CFC91FD344F7004F8CA9 /* grubSubUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07E4CFBB1FD344F7004F8CA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07E4CF9E1FD344F7004F8CA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07E4CFA51FD344F7004F8CA9;
+			remoteInfo = grubSub;
+		};
+		07E4CFC61FD344F7004F8CA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07E4CF9E1FD344F7004F8CA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07E4CFA51FD344F7004F8CA9;
+			remoteInfo = grubSub;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07E4CFA61FD344F7004F8CA9 /* grubSub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = grubSub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07E4CFA91FD344F7004F8CA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		07E4CFAB1FD344F7004F8CA9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		07E4CFAE1FD344F7004F8CA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07E4CFB01FD344F7004F8CA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07E4CFB31FD344F7004F8CA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		07E4CFB51FD344F7004F8CA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07E4CFBA1FD344F7004F8CA9 /* grubSubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = grubSubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07E4CFBE1FD344F7004F8CA9 /* grubSubTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = grubSubTests.swift; sourceTree = "<group>"; };
+		07E4CFC01FD344F7004F8CA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07E4CFC51FD344F7004F8CA9 /* grubSubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = grubSubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07E4CFC91FD344F7004F8CA9 /* grubSubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = grubSubUITests.swift; sourceTree = "<group>"; };
+		07E4CFCB1FD344F7004F8CA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07E4CFA31FD344F7004F8CA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07E4CFB71FD344F7004F8CA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07E4CFC21FD344F7004F8CA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07E4CF9D1FD344F7004F8CA9 = {
+			isa = PBXGroup;
+			children = (
+				07E4CFA81FD344F7004F8CA9 /* grubSub */,
+				07E4CFBD1FD344F7004F8CA9 /* grubSubTests */,
+				07E4CFC81FD344F7004F8CA9 /* grubSubUITests */,
+				07E4CFA71FD344F7004F8CA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07E4CFA71FD344F7004F8CA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07E4CFA61FD344F7004F8CA9 /* grubSub.app */,
+				07E4CFBA1FD344F7004F8CA9 /* grubSubTests.xctest */,
+				07E4CFC51FD344F7004F8CA9 /* grubSubUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07E4CFA81FD344F7004F8CA9 /* grubSub */ = {
+			isa = PBXGroup;
+			children = (
+				07E4CFA91FD344F7004F8CA9 /* AppDelegate.swift */,
+				07E4CFAB1FD344F7004F8CA9 /* ViewController.swift */,
+				07E4CFAD1FD344F7004F8CA9 /* Main.storyboard */,
+				07E4CFB01FD344F7004F8CA9 /* Assets.xcassets */,
+				07E4CFB21FD344F7004F8CA9 /* LaunchScreen.storyboard */,
+				07E4CFB51FD344F7004F8CA9 /* Info.plist */,
+			);
+			path = grubSub;
+			sourceTree = "<group>";
+		};
+		07E4CFBD1FD344F7004F8CA9 /* grubSubTests */ = {
+			isa = PBXGroup;
+			children = (
+				07E4CFBE1FD344F7004F8CA9 /* grubSubTests.swift */,
+				07E4CFC01FD344F7004F8CA9 /* Info.plist */,
+			);
+			path = grubSubTests;
+			sourceTree = "<group>";
+		};
+		07E4CFC81FD344F7004F8CA9 /* grubSubUITests */ = {
+			isa = PBXGroup;
+			children = (
+				07E4CFC91FD344F7004F8CA9 /* grubSubUITests.swift */,
+				07E4CFCB1FD344F7004F8CA9 /* Info.plist */,
+			);
+			path = grubSubUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07E4CFA51FD344F7004F8CA9 /* grubSub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07E4CFCE1FD344F7004F8CA9 /* Build configuration list for PBXNativeTarget "grubSub" */;
+			buildPhases = (
+				07E4CFA21FD344F7004F8CA9 /* Sources */,
+				07E4CFA31FD344F7004F8CA9 /* Frameworks */,
+				07E4CFA41FD344F7004F8CA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = grubSub;
+			productName = grubSub;
+			productReference = 07E4CFA61FD344F7004F8CA9 /* grubSub.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07E4CFB91FD344F7004F8CA9 /* grubSubTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07E4CFD11FD344F7004F8CA9 /* Build configuration list for PBXNativeTarget "grubSubTests" */;
+			buildPhases = (
+				07E4CFB61FD344F7004F8CA9 /* Sources */,
+				07E4CFB71FD344F7004F8CA9 /* Frameworks */,
+				07E4CFB81FD344F7004F8CA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07E4CFBC1FD344F7004F8CA9 /* PBXTargetDependency */,
+			);
+			name = grubSubTests;
+			productName = grubSubTests;
+			productReference = 07E4CFBA1FD344F7004F8CA9 /* grubSubTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		07E4CFC41FD344F7004F8CA9 /* grubSubUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07E4CFD41FD344F7004F8CA9 /* Build configuration list for PBXNativeTarget "grubSubUITests" */;
+			buildPhases = (
+				07E4CFC11FD344F7004F8CA9 /* Sources */,
+				07E4CFC21FD344F7004F8CA9 /* Frameworks */,
+				07E4CFC31FD344F7004F8CA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07E4CFC71FD344F7004F8CA9 /* PBXTargetDependency */,
+			);
+			name = grubSubUITests;
+			productName = grubSubUITests;
+			productReference = 07E4CFC51FD344F7004F8CA9 /* grubSubUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07E4CF9E1FD344F7004F8CA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Jade S";
+				TargetAttributes = {
+					07E4CFA51FD344F7004F8CA9 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					07E4CFB91FD344F7004F8CA9 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 07E4CFA51FD344F7004F8CA9;
+					};
+					07E4CFC41FD344F7004F8CA9 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 07E4CFA51FD344F7004F8CA9;
+					};
+				};
+			};
+			buildConfigurationList = 07E4CFA11FD344F7004F8CA9 /* Build configuration list for PBXProject "grubSub" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07E4CF9D1FD344F7004F8CA9;
+			productRefGroup = 07E4CFA71FD344F7004F8CA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07E4CFA51FD344F7004F8CA9 /* grubSub */,
+				07E4CFB91FD344F7004F8CA9 /* grubSubTests */,
+				07E4CFC41FD344F7004F8CA9 /* grubSubUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07E4CFA41FD344F7004F8CA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07E4CFB41FD344F7004F8CA9 /* LaunchScreen.storyboard in Resources */,
+				07E4CFB11FD344F7004F8CA9 /* Assets.xcassets in Resources */,
+				07E4CFAF1FD344F7004F8CA9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07E4CFB81FD344F7004F8CA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07E4CFC31FD344F7004F8CA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07E4CFA21FD344F7004F8CA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07E4CFAC1FD344F7004F8CA9 /* ViewController.swift in Sources */,
+				07E4CFAA1FD344F7004F8CA9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07E4CFB61FD344F7004F8CA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07E4CFBF1FD344F7004F8CA9 /* grubSubTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07E4CFC11FD344F7004F8CA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07E4CFCA1FD344F7004F8CA9 /* grubSubUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07E4CFBC1FD344F7004F8CA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07E4CFA51FD344F7004F8CA9 /* grubSub */;
+			targetProxy = 07E4CFBB1FD344F7004F8CA9 /* PBXContainerItemProxy */;
+		};
+		07E4CFC71FD344F7004F8CA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07E4CFA51FD344F7004F8CA9 /* grubSub */;
+			targetProxy = 07E4CFC61FD344F7004F8CA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		07E4CFAD1FD344F7004F8CA9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07E4CFAE1FD344F7004F8CA9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		07E4CFB21FD344F7004F8CA9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07E4CFB31FD344F7004F8CA9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07E4CFCC1FD344F7004F8CA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		07E4CFCD1FD344F7004F8CA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07E4CFCF1FD344F7004F8CA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = grubSub/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jadeshyu.grubSub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		07E4CFD01FD344F7004F8CA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = grubSub/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jadeshyu.grubSub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		07E4CFD21FD344F7004F8CA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = grubSubTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jadeshyu.grubSubTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/grubSub.app/grubSub";
+			};
+			name = Debug;
+		};
+		07E4CFD31FD344F7004F8CA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = grubSubTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jadeshyu.grubSubTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/grubSub.app/grubSub";
+			};
+			name = Release;
+		};
+		07E4CFD51FD344F7004F8CA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = grubSubUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jadeshyu.grubSubUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = grubSub;
+			};
+			name = Debug;
+		};
+		07E4CFD61FD344F7004F8CA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = grubSubUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jadeshyu.grubSubUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = grubSub;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07E4CFA11FD344F7004F8CA9 /* Build configuration list for PBXProject "grubSub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07E4CFCC1FD344F7004F8CA9 /* Debug */,
+				07E4CFCD1FD344F7004F8CA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07E4CFCE1FD344F7004F8CA9 /* Build configuration list for PBXNativeTarget "grubSub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07E4CFCF1FD344F7004F8CA9 /* Debug */,
+				07E4CFD01FD344F7004F8CA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		07E4CFD11FD344F7004F8CA9 /* Build configuration list for PBXNativeTarget "grubSubTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07E4CFD21FD344F7004F8CA9 /* Debug */,
+				07E4CFD31FD344F7004F8CA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		07E4CFD41FD344F7004F8CA9 /* Build configuration list for PBXNativeTarget "grubSubUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07E4CFD51FD344F7004F8CA9 /* Debug */,
+				07E4CFD61FD344F7004F8CA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07E4CF9E1FD344F7004F8CA9 /* Project object */;
+}
