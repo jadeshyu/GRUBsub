@@ -5,188 +5,215 @@ var foodlist =
       "unit": "slice",
       "caloriesPerServing": "79",
       "differenceFromAlternative": "74",
-      "alternative": "lettuce"
+      "alternative": "lettuce",
+      "message": "White Bread: 79 calories. Sub Lettuce for 5 calories"
   ],
   "wheatbread": [
       "foodName": "Wheat Bread",
       "unit": "slice",
       "caloriesPerServing": "69",
       "differenceFromAlternative": "64",
-      "alternative": "lettuce"
+      "alternative": "lettuce",
+      "message": "Wheat Bread: 69 calories. Sub Lettuce for 5 calories"
   ],
   "lettuce": [
       "foodName": "Lettuce",
       "unit": "cup",
       "caloriesPerServing": "5",
       "differenceFromAlternative": "0",
-      "alternative": "None"
+      "alternative": "None",
+      "message": "Lettuce: 5 calories"
   ],
   "whiterice": [
       "foodName": "White Rice",
       "unit": "cup",
       "caloriesPerServing": "206",
       "differenceFromAlternative": "181",
-      "alternative": "cauliflowerrice"
+      "alternative": "cauliflowerrice",
+      "message": "White Rice: 206 calories. Sub Cauliflower Rice for 25 calories"
   ],
   "brownrice": [
       "foodName": "Brown Rice",
       "unit": "cup",
       "caloriesPerServing": "230",
       "differenceFromAlternative": "205",
-      "alternative": "cauliflowerrice"
+      "alternative": "cauliflowerrice",
+      "message": "Brown Rice: 230 calories. Sub Cauliflower Rice for 25 calories"
   ],
   "cauliflowerrice": [
       "foodName": "Cauliflower Rice",
       "unit": "cup",
       "caloriesPerServing": "25",
       "differenceFromAlternative": "0",
-      "alternative": "None"
+      "alternative": "None",
+      "message": "Cauliflower Rice: 25 calories"
   ],
   "hamburger": [
       "foodName": "Hamburger",
       "unit": "item",
       "caloriesPerServing": "390",
       "differenceFromAlternative": "150",
-      "alternative": "proteinstylehamburger"
+      "alternative": "proteinstylehamburger",
+      "message": "Hamburger: 390 calories. Sub Protein Style Hamburger for 240 calories"
   ],
   "proteinstylehamburger": [
       "foodName": "Protein Style Hamburger",
       "unit": "item",
       "caloriesPerServing": "240",
       "differenceFromAlternative": "0",
-      "alternative": "None"
+      "alternative": "None",
+      "message": "Protein Style Hamburger: 240 calories"
   ],
   "cocacola": [
-      "foodName": "Coca Cola",
-      "unit": "12 fl. oz.",
+      "foodName": "Coca-Cola",
+      "unit": "12 fl. oz",
       "caloriesPerServing": "140",
       "differenceFromAlternative": "140",
-      "alternative": "dietcoke"
+      "alternative": "dietcoke",
+      "message": "Coca-Cola: 140 calories. Sub Diet Coke for 0 calories"
   ],
   "dietcoke": [
       "foodName": "Diet Coke",
-      "unit": "12 fl. oz.",
+      "unit": "12 fl. oz",
       "caloriesPerServing": "0",
       "differenceFromAlternative": "0",
-      "alternative": "None"
+      "alternative": "None",
+      "message": "Diet Coke: 0 calories"
   ],
   "cheetos": [
       "foodName": "Cheetos",
       "unit": "1oz. bag",
       "caloriesPerServing": "160",
       "differenceFromAlternative": "100",
-      "alternative": "seaweed"
+      "alternative": "seaweed",
+      "message": "Cheetos: 160 calories. Sub Organic Seaweed for 60 calories"
   ],
   "bakedcheetos": [
       "foodName": "Baked Cheetos",
       "unit": "1oz. bag",
       "caloriesPerServing": "133",
       "differenceFromAlternative": "73",
-      "alternative": "seaweed"
+      "alternative": "seaweed",
+      "message": "Baked Cheetos: 133 calories. Sub Organic Seaweed for 60 calories"
   ],
   "wheatthins": [
       "foodName": "Wheat Thins",
       "unit": "1oz. bag",
       "caloriesPerServing": "128",
       "differenceFromAlternative": "68",
-      "alternative": "seaweed"
+      "alternative": "seaweed",
+      "message": "Wheat Thins: 128 calories. Sub Organic Seaweed for 60 calories"
   ],
   "seaweed": [
       "foodName": "Organic Seaweed",
       "unit": "10 gram package",
       "caloriesPerServing": "60",
       "differenceFromAlternative": "0",
-      "alternative": "None"
+      "alternative": "None",
+      "message": "Organic Seaweed: 60 calories"
   ],
   "friedchicken": [
       "foodName": "Fried Chicken",
-      "unit": "4 oz.",
+      "unit": "4 oz",
       "caloriesPerServing": "506",
       "differenceFromAlternative": "459",
-      "alternative": "grilledchicken"
+      "alternative": "grilledchicken",
+      "message": "Fried Chicken: 506 calories. Sub Grilled Chicken for 47 calories"
   ],
   "grilledchicken": [
       "foodName": "Grilled Chicken",
-      "unit": "4 oz.",
+      "unit": "4 oz",
       "caloriesPerServing": "47",
       "differenceFromAlternative": "0",
-      "alternative": "None"
+      "alternative": "None",
+      "message": "Grilled Chicken: 47 calories"
   ],
   "friedfish": [
       "foodName": "Fried fish",
-      "unit": "5 oz.",
+      "unit": "5 oz",
       "caloriesPerServing": "438",
       "differenceFromAlternative": "263",
-      "alternative": "grilledfish"
+      "alternative": "grilledfish",
+      "message": "Fried Fish: 438 calories. Sub Grilled Fish for 175 calories"
   ],
   "grilledfish": [
       "foodName": "Grilled Fish",
-      "unit": "5 oz.",
+      "unit": "5 oz",
       "caloriesPerServing": "175",
       "differenceFromAlternative": "0",
-      "alternative": "None"
+      "alternative": "None",
+      "message": "Grilled Fish: 175 calories"
   ],
   "steak": [
       "foodName": "Steak",
-      "unit": "8 oz.",
+      "unit": "8 oz",
       "caloriesPerServing": "650",
       "differenceFromAlternative": "0",
-      "alternative": "None"
+      "alternative": "None",
+      "message": "Steak: 650 calories"
   ],
   "frenchfries": [
       "foodName": "French Fries",
-      "unit": "8 oz.",
+      "unit": "8 oz",
       "caloriesPerServing": "680",
       "differenceFromAlternative": "635",
-      "alternative": "steamedvegetables"
+      "alternative": "steamedvegetables,
+      "message": "French Fries: 680 calories. Sub Lettuce for 45 calories"
   ],
   "steamedvegetables": [
       "foodName": "Steamed Vegetables",
-      "unit": "8 oz.",
+      "unit": "8 oz",
       "caloriesPerServing": "45",
       "differenceFromAlternative": "0",
-      "alternative": "None"
+      "alternative": "None",
+      "message": "Steamed Vegetables: 45 calories"
   ],
   "coffeecake": [
       "foodName": "Coffee Cake",
       "unit": "cake",
       "caloriesPerServing": "160",
       "differenceFromAlternative": "50",
-      "alternative": "cereal"
+      "alternative": "cereal",
+      "message": "Coffee Cake: 160 calories. Sub Cereal for 110 calories"
   ],
   "cereal": [
       "foodName": "cereal",
       "unit": "cup",
       "caloriesPerServing": "110",
       "differenceFromAlternative": "0",
-      "alternative": "None"
+      "alternative": "None",
+      "message": "Cereal: 110 calories"
   ],
   "hohos": [
       "foodName": "Ho Hos",
       "unit": "2 cakes",
       "caloriesPerServing": "260",
       "differenceFromAlternative": "80",
-      "alternative": "risebuddy"
+      "alternative": "risebuddy",
+      "message": "Ho hos: 260 calories. Sub Rise Buddy for 170 calories"
   ],
   "risebuddy": [
       "foodName": "Rise Buddy",
       "unit": "bag",
       "caloriesPerServing": "170",
       "differenceFromAlternative": "0",
-      "alternative": "None"
-  ]
-  "donut": [
-      "foodName": "Donut",
-      "unit": "donut",
+      "alternative": "None",
+      "message": "Rise Buddy: 170 calories"
+  ],
+  "Doughnut": [
+      "foodName": "Doughnut",
+      "unit": "Doughnut",
       "caloriesPerServing": "230",
       "differenceFromAlternative": "0",
-      "alternative": "bagel"
+      "alternative": "bagel",
+      "message": "Doughnut: 230 calories. Sub Bagel for 100 calories"
   ],
   "bagel": [
       "foodName": "Bagel",
       "unit": "bagel",
       "caloriesPerServing": "100",
       "differenceFromAlternative": "0",
-      "alternative": "None"
+      "alternative": "None",
+      "message": "Bagel: 100 calories"
   ]
 ]
