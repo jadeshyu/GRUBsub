@@ -33,17 +33,6 @@ class AddViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDat
         
         pickFood.delegate = self
         pickServing.delegate = self
-        
-        let statusBar = UINavigationBar.appearance()
-        // nav bar color => your color
-        statusBar.barTintColor = UIColor(red: 43/255.0, green: 79/255.0, blue: 133/255.0, alpha: 1.0)
-        statusBar.isTranslucent = false
-        // status bar text => white
-        statusBar.barStyle = .black
-        // nav bar elements color => white
-        statusBar.tintColor = .white
-        statusBar.titleTextAttributes = [NSForegroundColorAttributeName:UIColor.white]
-        
     }
 
     override func didReceiveMemoryWarning() {
@@ -103,6 +92,8 @@ class AddViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDat
         else if pickerView == pickServing {
             self.servingNumber.text = String(self.serving[row])
         }
+        
+        self.view.endEditing(true) 
     }
     
     func textFieldDidBeginEditing(_ textField: UITextField) {
