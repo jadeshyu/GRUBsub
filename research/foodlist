@@ -2,56 +2,56 @@ var foodlist =
 [
   "whitebread": [
       "foodName": "White Bread",
-      "unit": "1 Slice",
+      "unit": "slice",
       "caloriesPerServing": "79",
       "differenceFromAlternative": "74",
       "alternative": "lettuce"
   ],
   "wheatbread": [
       "foodName": "Wheat Bread",
-      "unit": "1 Slice",
+      "unit": "slice",
       "caloriesPerServing": "69",
       "differenceFromAlternative": "64",
       "alternative": "lettuce"
   ],
   "lettuce": [
       "foodName": "Lettuce",
-      "unit": "1 Cup",
+      "unit": "cup",
       "caloriesPerServing": "5",
       "differenceFromAlternative": "0",
       "alternative": "None"
   ],
   "whiterice": [
       "foodName": "White Rice",
-      "unit": "1 Cup",
+      "unit": "cup",
       "caloriesPerServing": "206",
       "differenceFromAlternative": "181",
       "alternative": "cauliflowerrice"
   ],
   "brownrice": [
       "foodName": "Brown Rice",
-      "unit": "1 Cup",
+      "unit": "cup",
       "caloriesPerServing": "230",
       "differenceFromAlternative": "205",
       "alternative": "cauliflowerrice"
   ],
   "cauliflowerrice": [
       "foodName": "Cauliflower Rice",
-      "unit": "1 Cup",
+      "unit": "cup",
       "caloriesPerServing": "25",
       "differenceFromAlternative": "0",
       "alternative": "None"
   ],
   "hamburger": [
       "foodName": "Hamburger",
-      "unit": "1 Item",
+      "unit": "item",
       "caloriesPerServing": "390",
       "differenceFromAlternative": "150",
       "alternative": "proteinstylehamburger"
   ],
   "proteinstylehamburger": [
       "foodName": "Protein Style Hamburger",
-      "unit": "1 Item",
+      "unit": "item",
       "caloriesPerServing": "240",
       "differenceFromAlternative": "0",
       "alternative": "None"
@@ -74,27 +74,27 @@ var foodlist =
       "foodName": "Cheetos",
       "unit": "1oz. bag",
       "caloriesPerServing": "160",
-      "differenceFromAlternative": "155",
-      "alternative": "celery"
+      "differenceFromAlternative": "100",
+      "alternative": "seaweed"
   ],
   "bakedcheetos": [
       "foodName": "Baked Cheetos",
       "unit": "1oz. bag",
       "caloriesPerServing": "133",
-      "differenceFromAlternative": "128",
-      "alternative": "celery"
+      "differenceFromAlternative": "73",
+      "alternative": "seaweed"
   ],
   "wheatthins": [
       "foodName": "Wheat Thins",
       "unit": "1oz. bag",
       "caloriesPerServing": "128",
-      "differenceFromAlternative": "123",
-      "alternative": "celery"
+      "differenceFromAlternative": "68",
+      "alternative": "seaweed"
   ],
-  "celery": [
-      "foodName": "Celery",
-      "unit": "1oz. bag",
-      "caloriesPerServing": "5",
+  "seaweed": [
+      "foodName": "Organic Seaweed",
+      "unit": "10 gram package",
+      "caloriesPerServing": "60",
       "differenceFromAlternative": "0",
       "alternative": "None"
   ],
@@ -144,6 +144,48 @@ var foodlist =
       "foodName": "Steamed Vegetables",
       "unit": "8 oz.",
       "caloriesPerServing": "45",
+      "differenceFromAlternative": "0",
+      "alternative": "None"
+  ],
+  "coffeecake": [
+      "foodName": "Coffee Cake",
+      "unit": "cake",
+      "caloriesPerServing": "160",
+      "differenceFromAlternative": "50",
+      "alternative": "cereal"
+  ],
+  "cereal": [
+      "foodName": "cereal",
+      "unit": "cup",
+      "caloriesPerServing": "110",
+      "differenceFromAlternative": "0",
+      "alternative": "None"
+  ],
+  "hohos": [
+      "foodName": "Ho Hos",
+      "unit": "2 cakes",
+      "caloriesPerServing": "260",
+      "differenceFromAlternative": "80",
+      "alternative": "risebuddy"
+  ],
+  "risebuddy": [
+      "foodName": "Rise Buddy",
+      "unit": "bag",
+      "caloriesPerServing": "170",
+      "differenceFromAlternative": "0",
+      "alternative": "None"
+  ]
+  "donut": [
+      "foodName": "Donut",
+      "unit": "donut",
+      "caloriesPerServing": "230",
+      "differenceFromAlternative": "0",
+      "alternative": "bagel"
+  ],
+  "bagel": [
+      "foodName": "Bagel",
+      "unit": "bagel",
+      "caloriesPerServing": "100",
       "differenceFromAlternative": "0",
       "alternative": "None"
   ]
