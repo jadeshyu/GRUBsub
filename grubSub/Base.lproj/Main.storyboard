@@ -135,6 +135,9 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="table" destination="fym-pS-vur" id="mWd-Zb-Sfa"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -195,6 +198,9 @@
                                 <rect key="frame" x="148" y="386" width="79" height="39"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <state key="normal" title="Confirm"/>
+                                <connections>
+                                    <action selector="confirm:" destination="bMd-vb-gEK" eventType="touchUpInside" id="8uA-hj-2Uo"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="YiB-uI-Ext">
                                 <rect key="frame" x="135.5" y="289" width="104" height="30"/>
