@@ -7,7 +7,7 @@ var foodlist =
       "differenceFromAlternative": "-74",
       "alternative": "lettuce"
   ],
-  "whitebread": [
+  "wheatbread": [
       "foodName": "Wheat Bread",
       "unit": "1 Slice",
       "caloriesPerServing": "69",
