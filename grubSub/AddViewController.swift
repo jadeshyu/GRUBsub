@@ -50,6 +50,35 @@ class AddViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDat
         dismiss (animated: true, completion: nil)
     }
     
+    @IBAction func confirm(_ sender: Any) {
+        
+        let foodObject = UserDefaults.standard.object(forKey: "foods")
+        
+        var food:[String]
+        
+        //add on existing to array
+        if let tempFood = foodObject as? [String] {
+            
+            food = tempFood
+            
+            food.append(chooseFood.text!)
+            
+            print(food)
+            
+        } else {
+            //add on new array
+            food = [chooseFood.text!]
+        }
+        
+        UserDefaults.standard.set(food, forKey: "foods")
+        
+        //chooseFood.text = ""
+        
+        print(chooseFood.text!)
+        
+        dismiss (animated: true, completion: nil)
+        
+    }
 
     //number of selected rows in picker
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
